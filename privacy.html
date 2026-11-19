@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VoiceBridge 개인정보 처리방침</title>
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="nav">
+    <a class="brand" href="./"><img src="icon.png" alt="">VoiceBridge</a>
+    <nav><a href="support.html">지원</a><a href="privacy.html">개인정보</a></nav>
+  </header>
+  <main class="doc">
+    <h1>개인정보 처리방침</h1>
+    <p class="note">시행일: 2026년 11월 19일 · 대상: VoiceBridge iPhone 앱, VoiceBridge Helper(Mac)</p>
+
+    <h2>1. 수집하는 정보</h2>
+    <p>VoiceBridge는 회원가입이 없고 자체 서버를 운영하지 않습니다. 녹음 오디오, 받아쓴 텍스트, AI 요약, 설정, 사용자가 입력한 API 키는 <strong>사용자 기기 안에만</strong> 저장됩니다. 개발자는 이 정보에 접근할 수 없습니다.</p>
+
+    <h2>2. 제3자 AI 서비스로의 전송</h2>
+    <p>사용자가 AI 기능을 처음 쓸 때 앱 안에서 동의를 받은 후에만, 아래 데이터를 사용자 본인의 API 키로 해당 회사에 직접 전송합니다.</p>
+    <ul>
+      <li><strong>Anthropic (Claude)</strong>: 받아쓴 텍스트, 녹음 전사, 질문 — 대화 답변, 다듬기, 요약, 번역, 화자 구분, 검색</li>
+      <li><strong>OpenAI</strong>: 받아쓴 텍스트, 질문 — 대화 답변 / 녹음 오디오 — 음성 전사(설정에서 선택한 경우)</li>
+      <li><strong>Apple 음성 인식</strong>: 아이폰 내장 음성 인식을 쓰는 경우 음성이 Apple에서 처리될 수 있습니다.</li>
+    </ul>
+    <p>각 회사의 데이터 처리는 해당 회사의 개인정보 처리방침을 따릅니다.</p>
+
+    <h2>3. 노트북으로 보내기 (VoiceBridge Helper)</h2>
+    <p>“노트북 Claude”로 보내면 받아쓴 텍스트가 <strong>같은 Wi-Fi 안에서</strong> 사용자의 Mac으로 직접 전송되며 인터넷을 거치지 않습니다. Mac 도우미는 연결된 아이폰을 구분하기 위한 임의의 토큰만 Mac에 저장하고, 받은 텍스트는 Claude 입력창에 붙여넣은 뒤 보관하지 않습니다. 문제 해결용 기록(<code>~/Library/Logs/VoiceBridgeHelper.log</code>)에는 시각과 글자 수만 남고 내용은 남지 않습니다.</p>
+
+    <h2>4. 권한</h2>
+    <ul>
+      <li>아이폰: 마이크(녹음·받아쓰기), 음성 인식(내장 받아쓰기), 로컬 네트워크(노트북 찾기·전송)</li>
+      <li>Mac: 손쉬운 사용(Claude 입력창에 붙여넣기·전송)</li>
+    </ul>
+    <p>화면 기록 권한, 위치, 연락처, 광고 식별자는 사용하지 않으며 추적(트래킹)을 하지 않습니다.</p>
+
+    <h2>5. 사용자의 권리</h2>
+    <p>아이폰 앱의 설정 → 개인정보에서 AI 전송 동의를 철회하거나 모든 데이터를 즉시 삭제할 수 있습니다. Mac 도우미 창의 “모두 연결 해제”로 연결 정보를 지울 수 있습니다. 앱을 삭제하면 기기 안의 데이터도 함께 삭제됩니다.</p>
+
+    <h2>6. 아동</h2>
+    <p>이 서비스는 만 14세 미만 아동을 대상으로 하지 않습니다.</p>
+
+    <h2>7. 문의</h2>
+    <p><a href="https://github.com/steverse-code/handsfree_ai/issues">GitHub 문의 게시판</a>으로 연락해 주세요. 방침이 바뀌면 이 페이지에 시행일과 함께 알립니다.</p>
+  </main>
+  <footer>© 2026 VoiceBridge · <a href="./">홈</a> · <a href="support.html">지원</a></footer>
+</div>
+</body>
+</html>
