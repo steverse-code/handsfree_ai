@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Handsfree AI 지원</title>
+<title>Alfred 지원</title>
 <link rel="icon" href="icon.png">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="wrap">
   <header class="nav">
-    <a class="brand" href="./"><img src="icon.png" alt="">Handsfree AI</a>
+    <a class="brand" href="./"><img src="icon.png" alt="">Alfred</a>
     <nav><a href="support.html">지원</a><a href="privacy.html">개인정보</a></nav>
   </header>
   <main class="doc">
@@ -19,19 +19,25 @@
 
     <h2>자주 묻는 질문</h2>
     <details><summary>노트북을 찾지 못해요</summary>
-      <p>① 아이폰과 노트북이 같은 Wi-Fi인지 ② Mac에서 ‘Handsfree AI 도우미’가 켜져 있는지(Dock 아이콘) ③ 아이폰 설정 → Handsfree AI → <b>로컬 네트워크</b>가 켜져 있는지 확인하세요. 회사·학교 Wi-Fi는 기기 간 연결을 막는 경우가 있어요.</p></details>
-    <details><summary>보냈는데 Claude 입력창에 글이 안 들어가요</summary>
+      <p>① 아이폰과 노트북이 같은 Wi-Fi인지 ② Mac에서 ‘Handsfree AI 도우미’가 켜져 있는지(Dock 아이콘) ③ 아이폰 설정 → Alfred → <b>로컬 네트워크</b>가 켜져 있는지 확인하세요. 회사·학교 Wi-Fi는 기기 간 연결을 막는 경우가 있어요.</p></details>
+    <details><summary>보냈는데 AI 입력창에 글이 안 들어가요</summary>
       <p>시스템 설정 → 개인정보 보호 및 보안 → <b>손쉬운 사용</b>에서 ‘Handsfree AI 도우미’가 켜져 있는지 확인하세요. Mac 화면이 잠겨 있으면 입력할 수 없어요. 도우미 창의 “마지막:” 줄에 실패 이유가 표시됩니다.</p></details>
     <details><summary>입력만 하고 전송은 직접 하고 싶어요</summary>
-      <p>말하기 탭에서 “보내기 누르면 노트북에서 바로 전송”을 끄세요. 그러면 입력창에만 들어가고, ⏎ 버튼이나 노트북에서 직접 전송할 수 있어요.</p></details>
+      <p>말하기 화면에서 “보내면 자동으로 입력(Enter)”을 끄세요. 그러면 입력창에만 들어가고, 노트북에서 직접 전송할 수 있어요.</p></details>
+    <details><summary>버튼을 다른 AI나 앱으로 바꾸고 싶어요</summary>
+      <p>설정 → <b>말하기 화면 버튼</b>에서 버튼마다 연결할 AI를 고르세요. 목록에 없는 앱은 “원하는 앱 직접 연결하기”에서 Mac 앱 이름을 넣어 만들 수 있어요.</p></details>
+    <details><summary>노트북에서 마우스로 말하려면?</summary>
+      <p>Mac 도우미 1.1 이상에서 입력창 안에 마우스를 두고 클릭을 길게 누른 채 말하세요. 손을 떼면 커서 위치에 글이 들어가요. 처음 한 번 마이크와 음성 인식 권한을 허용해 주세요. 도우미 창에서 끄거나 언어를 바꿀 수 있어요.</p></details>
+    <details><summary>받아쓰기를 더 정확하게 하려면?</summary>
+      <p>설정 → OpenAI (ChatGPT)에 sk-로 시작하는 API 키를 넣고, 음성 인식 엔진을 “ChatGPT 받아쓰기”로 바꾸세요. OpenAI 요금은 따로 들어요.</p></details>
     <details><summary>화면을 끄면 녹음이 멈추나요?</summary>
-      <p>아니요. 녹음노트는 화면을 꺼도 계속 녹음되고, 잠금화면에서 시간·하이라이트·정지를 할 수 있어요. 제어 센터에 “Handsfree AI 녹음”을 추가하면 앱을 열지 않고 시작할 수 있어요.</p></details>
+      <p>아니요. 녹음노트는 화면을 꺼도 계속 녹음되고, 잠금화면에서 시간·하이라이트·정지를 할 수 있어요. 제어 센터에 Alfred 녹음 버튼을 추가하면 앱을 열지 않고 시작할 수 있어요.</p></details>
     <details><summary>AI 요약에 API 키가 필요한가요?</summary>
-      <p>네. 앱 안에서 AI 답변·요약을 받으려면 Anthropic(Claude) 또는 OpenAI API 키가 필요해요. 노트북 Claude로 보내기, 녹음, 기기 내 받아쓰기는 API 키 없이 쓸 수 있어요.</p></details>
+      <p>네. AI 요약·질문은 Anthropic(Claude) API 키가 필요해요. 노트북으로 보내기, 녹음, 애플 음성인식 받아쓰기는 API 키 없이 쓸 수 있어요.</p></details>
     <details><summary>Mac 도우미를 지우려면?</summary>
       <p>도우미를 종료하고 응용 프로그램 폴더에서 휴지통으로 옮기면 됩니다.</p></details>
   </main>
-  <footer>© 2026 Handsfree AI · <a href="./">홈</a> · <a href="privacy.html">개인정보 처리방침</a></footer>
+  <footer>© 2026 SeoulFactory · <a href="./">홈</a> · <a href="privacy.html">개인정보 처리방침</a></footer>
 </div>
 </body>
 </html>

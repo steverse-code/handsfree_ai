@@ -1,4 +1,4 @@
-# Handsfree AI (Handsfree AI)
+# Alfred - Handsfree AI
 
 Website for Handsfree AI — speak on your iPhone, type into Claude on your Mac.
 

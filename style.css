@@ -1,12 +1,12 @@
 :root {
   --bg: #f7f7f4; --surface: #ffffff; --text: #16181d; --muted: #5d6270; --line: #e3e3dc;
-  --brand-1: #26307a; --brand-2: #0e8a8c; --accent: #0e8a8c; --accent-ink: #ffffff;
+  --brand-1: #16181d; --brand-2: #5d6270; --accent: #16181d; --accent-ink: #ffffff;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #0f1116; --surface: #181b22; --text: #eceef2; --muted: #a2a7b3; --line: #2a2e38;
-    --accent: #2fb4b6; --accent-ink: #0f1116; color-scheme: dark;
+    --accent: #eceef2; --accent-ink: #0f1116; color-scheme: dark;
   }
 }
 * { box-sizing: border-box; }
@@ -23,7 +23,7 @@ header.nav { display: flex; align-items: center; justify-content: space-between;
 .hero h1 { font-size: clamp(30px, 6vw, 46px); line-height: 1.2; letter-spacing: -0.02em; margin: 0 0 14px; }
 .hero h1 em { font-style: normal; background: linear-gradient(90deg, var(--brand-1), var(--brand-2));
   -webkit-background-clip: text; background-clip: text; color: transparent; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .hero h1 em { background: linear-gradient(90deg, #8d97ff, #2fb4b6); -webkit-background-clip: text; background-clip: text; } }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .hero h1 em { background: linear-gradient(90deg, #ffffff, #a2a7b3); -webkit-background-clip: text; background-clip: text; } }
 .hero p.lead { font-size: 19px; color: var(--muted); margin: 0 0 24px; max-width: 640px; }
 .cta { display: flex; flex-wrap: wrap; gap: 10px; }
 .btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 18px; border-radius: 12px; font-weight: 600;
