@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alfred Support</title>
+<link rel="alternate" hreflang="ko" href="https://steverse-code.github.io/handsfree_ai/support.html">
+<link rel="alternate" hreflang="en" href="https://steverse-code.github.io/handsfree_ai/en/support.html">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../icon.png">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="nav">
+    <a class="brand" href="./"><img src="../icon.png" alt="">Alfred</a>
+    <nav><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="../support.html" data-lang="ko" lang="ko">한국어</a></nav>
+  </header>
+  <main class="doc">
+    <h1>Support</h1>
+    <p>For problems or ideas, post on the <a href="https://github.com/steverse-code/handsfree_ai/issues">GitHub issues page</a>. Include your iPhone and Mac models and your iOS and macOS versions so we can help faster.</p>
+
+    <h2>FAQ</h2>
+    <details><summary>The app can't find my laptop</summary>
+      <p>Check that ① your iPhone and laptop are on the same Wi-Fi, ② the Alfred helper is running on the Mac (look for its Dock icon), and ③ iPhone Settings → Alfred → <b>Local Network</b> is on. Office and school Wi-Fi sometimes blocks devices from talking to each other.</p></details>
+    <details><summary>I sent it, but nothing shows up in the AI text field</summary>
+      <p>In System Settings → Privacy &amp; Security → <b>Accessibility</b>, make sure the helper is turned on. Nothing can be typed while the Mac screen is locked. The “Last:” line in the helper window shows why it failed.</p></details>
+    <details><summary>I want it to type but not send</summary>
+      <p>Turn off <b>Press Enter after sending</b> on the Speak screen. The text goes into the text field and you can send it from the laptop yourself.</p></details>
+    <details><summary>How do I change a button to another AI or app?</summary>
+      <p>In Settings → <b>Speak screen buttons</b>, pick the AI for each button. For apps not in the list, use <b>Connect any app</b> and enter the Mac app's name.</p></details>
+    <details><summary>How do I talk with the mouse on my laptop?</summary>
+      <p>With Mac helper 1.2 or later, double-click inside a text field with your mouse or trackpad. Keep the second click held down, don't move, wait 1 second, then speak. Let go and the text goes where your cursor is. Allow microphone and speech recognition the first time. You can turn it off or change the language in the helper window.</p></details>
+    <details><summary>How do I make dictation more accurate?</summary>
+      <p>In Settings → OpenAI (ChatGPT), enter an API key that starts with sk-, then set the speech recognition engine to <b>ChatGPT transcription</b>. OpenAI charges for this separately.</p></details>
+    <details><summary>Does recording stop when the screen turns off?</summary>
+      <p>No. Record keeps going with the screen off, and you can see the time, add highlights and stop from the Lock Screen. Add the Alfred record button to Control Center to start without opening the app.</p></details>
+    <details><summary>Do AI summaries need an API key?</summary>
+      <p>Yes. AI summaries and questions need an Anthropic (Claude) API key. Sending to your laptop, recording and Apple speech recognition work without any API key.</p></details>
+    <details><summary>How do I remove the Mac helper?</summary>
+      <p>Quit the helper and move it from your Applications folder to the Trash.</p></details>
+  </main>
+  <footer>© 2026 SeoulFactory · <a href="./">Home</a> · <a href="privacy.html">Privacy policy</a> · <a href="../support.html" data-lang="ko" lang="ko">한국어</a></footer>
+</div>
+<script src="../lang.js"></script>
+</body>
+</html>
